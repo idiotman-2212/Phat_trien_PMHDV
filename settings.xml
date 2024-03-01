@@ -1,0 +1,16 @@
+<!-- settings.xml -->
+
+<settings>
+    <proxies>
+        <proxy>
+            <id>example-proxy</id>
+            <active>true</active>
+            <protocol>http</protocol>
+            <host>${proxy.host}</host>
+            <port>${proxy.port}</port>
+            <username>${proxy.username}</username>
+            <password>${proxy.password}</password>
+            <nonProxyHosts>www.google.com|*.example.com</nonProxyHosts>
+        </proxy>
+    </proxies>
+</settings>
